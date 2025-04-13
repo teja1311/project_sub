@@ -1,0 +1,27 @@
+Manual Test Cases
+
+
+1) When the input is empty. 
+#can be handled in automation testcase as well
+
+Expected : should display 0 as result
+
+2) input with spaces 
+#can be handled in automtion testcase as well
+Expected : Space should be treated as a character
+
+3) Very long input string
+
+Expected : Result should be accurate and UI responsive
+
+4) Input with the numbers 
+
+Expected : Numbers should be counted as characters
+
+5) Input with special characters
+
+Expected : Special characters also should be treated like characters
+
+6) Random inputs
+#if we made it in such a way where we can maintain testbed, we can just give as many inputs as we can.
+Expected : Output should give valid number where number is length of longest substring in the given input string
